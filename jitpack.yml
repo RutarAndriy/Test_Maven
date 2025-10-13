@@ -1,4 +1,4 @@
 jdk:
-   - openjdk11
+   - 25-tem
 before_install:
-   - mvn wrapper:wrapper -Dmaven=4.0.0-rc-4
+   - mvn wrapper:wrapper -Dmaven=4.0.0-rc-2
