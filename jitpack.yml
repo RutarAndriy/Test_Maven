@@ -2,5 +2,6 @@ jdk:
    - 25-tem
 before_install:
    - echo Hello, before instalation
-   - sdk install maven 4.0.0-rc-4
-   - sdk default maven 4.0.0-rc-4
+   - sdk sdk update
+   - sdk install java 25-tem
+   - sdk install maven 4.0.0-rc-2
