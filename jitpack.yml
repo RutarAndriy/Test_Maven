@@ -1,4 +1,6 @@
 jdk:
    - 25-tem
 before_install:
-   - mvn wrapper:wrapper -Dmaven=4.0.0-rc-2
+   - echo Hello, before instalation
+   - sdk install maven 4.0.0-rc-4
+   - sdk default maven 4.0.0-rc-4
